@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MataPelajaran
+comment1.params=newNamaMataPelajaran\ newGuru
+comment1.target=MataPelajaran(java.lang.String,\ Guru)
+comment2.params=UTS\ newNilaiUTS\ UAS\ newNilaiUAS
+comment2.target=void\ addNilai(Penilaian,\ float,\ Penilaian,\ float)
+comment3.params=
+comment3.target=void\ showDetail()
+numComments=4

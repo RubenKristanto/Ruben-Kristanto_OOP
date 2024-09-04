@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Siswa
+comment1.params=newNama\ newID\ newMataPelajaran
+comment1.target=Siswa(java.lang.String,\ int,\ MataPelajaran)
+comment2.params=
+comment2.target=void\ totalNilai()
+comment3.params=
+comment3.target=void\ showDetail()
+numComments=4
