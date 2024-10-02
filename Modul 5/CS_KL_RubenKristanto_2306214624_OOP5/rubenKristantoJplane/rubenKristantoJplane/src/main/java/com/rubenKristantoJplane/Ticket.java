@@ -34,7 +34,7 @@ public class Ticket {
     }
 
     public String toString(){
-        return "Ticket{ id="+ buyer.getId()+"buyer= "+buyer.getUsername()+"plane=Plane{id= "+plane.getId()+"code= "+plane.getCode()+"Departure city= "+plane.getDepartureCity()+"arrival city= "+plane.getArrivalCity()"} code = "+code"}";
+        return "Ticket{ id="+ buyer.getId()+"buyer= "+buyer.getUsername()+"plane=Plane{id= "+plane.getId()+"code= "+plane.getCode()+"Departure city= "+plane.getDepartureCity()+"arrival city= "+plane.getArrivalCity()+"} code = "+code+"}";
     }
 
     public long getId() {

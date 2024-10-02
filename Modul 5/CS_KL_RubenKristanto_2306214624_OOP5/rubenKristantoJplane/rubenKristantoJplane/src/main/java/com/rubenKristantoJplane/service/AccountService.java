@@ -26,22 +26,18 @@ public class AccountService {
         List<Account> accounts = getAllUsers();
         Account query = null;
         for(int i=0; i<accounts.size(); i++){
-            if(accounts.get(i).getId() == accountId){
-                if(accounts.get(i).getUsername().equals(username) && accounts.get(i).getPassword().equals(password)){
+            if(accounts.get(i).getId() == accountId) {
+                if (accounts.get(i).getUsername().equals(username) && accounts.get(i).getPassword().equals(password)) {
                     accounts.get(i).setBalance(accounts.get(i).getBalance() + amount);
                     accountRepository.save(accounts.get(i));
                     query = accounts.get(i);
                     break;
-                }
-                else {
+                } else {
                     throw new RuntimeException("Invalid username or password");
                 }
             }
-
-            return query;
         }
-
-        return
+        return query;
     }
 }
 
